@@ -6,6 +6,8 @@ function validateEmail(email) {
 }
 
 function validate() {
+  var result=$("#result");
+  result.text("");
   var email = $("#inputEmail").val();
   var password=$("#inputPassword").val();
   if(email!="")
@@ -14,7 +16,7 @@ function validate() {
       // alert(email + " is valid ");
       if(email==emailex&&password==passwordex)
       {
-        alert("Login successfully ");
+        result.text(email+password);
       }
       else{
         alert("Please check your email or password !")
