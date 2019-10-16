@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LoginFlexbox</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/flexbox.css">
+</head>
+<body>
+	<div class="container">
+		<form class="form-signin" >
+			<div class="head">
+				<div>Sign in</div>
+				<a href="#">forgot passwork?</a>
+			</div>
+			<div class="form-style">
+				<div >
+					<input  id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+					<!-- <label ></label> -->
+				</div>
+				<div >
+					<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+				</div>
+
+				<div class="checkbox mb-3">
+					<div>
+						<input type="checkbox" value="remember-me"> Remember me
+					</div>
+				</div>
+				<div class="signin-up">
+					<button class="btn btn-primary " type="submit" id="validate"  >log in</button>
+					<button class="btn btn-primary" type="submit" style="background-color: rgb(135, 177, 255);" >login with facebook </button>
+				</div>
+			</div>
+			<div id="txtthu">
+			<p >Don't have an account!<a href="#"> Sign up here</a></p>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>
