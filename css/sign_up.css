@@ -1,0 +1,33 @@
+
+.container{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body,html {
+	height: 100%;
+}
+.Signup-form-container{
+	border: 1px groove black;
+	width: 40%;
+	height: 80%;
+	display: flex;
+	justify-content: center ! important;
+	align-content: center;
+}
+.form-style{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.btn-primary{
+	width: 40%;
+}
+.button{
+	display: flex;
+	justify-content: center;
+}
